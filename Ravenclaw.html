@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <title>Ravenclaw</title>
+        <link href="https://fonts.googleapis.com/css2?family=Germania+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+        <style>
+            body{background-color: #000CB7;}
+            h3 {font-size: 1.5em;}
+            h1, h3{font-size: 100%;
+	               font-weight: normal;}
+            li{list-style-type: none;}
+            .portrait{background-size: cover;
+	                  background-position: center;
+                      width: 600px; height:400px;
+                      padding: top 100px;}
+            .name{font-size: 4em;
+                  font-family: 'Germania One', cursive;
+	              color: #DB9700;
+                  padding: 20%;
+                  padding-bottom: 2px;}
+            .timeline{font-size: 1.5em;
+                      font-family: 'Acme', sans-serif;
+	                  color:black;
+                      float:left;}
+            .timeline li{padding-bottom: 1px;}
+            .timeline li h3{color: #DB9700;
+	                        border-left: 3px solid #DB9700;
+	                        padding-left: 5px;}
+            @media(min-width:768px){
+                .portrait{position: fixed;
+                          left: 0;
+                          top: 0;
+                          width: 60vw;
+                          height: 100vh;
+                          padding: 0;} 
+        
+                .timeline{margin-left: 60vw;}
+                .name{margin-left: 45vw;}
+            }
+        </style>
+    </head>
+    <body>
+            <div class="portrait"><img src="luna.jpg"></div>
+            <div class>
+            <h1 class="name">Ravenclaw</h1></div>
+            <div class>
+                <ul class="timeline">
+                    <li><h3>Moto</h3>Dormitory for the wise and thoughtful</li>
+                    <li><h3>Founder</h3>Rowena Ravenclaw</li>
+                    <li><h3>Founding Ideology</h3>"Teach only the smartest children."</li>
+                    <li><h3>Listed animals</h3>Eagles</li>
+                    <li><h3>Symbolic Color</h3>Blue, Bronze</li>
+                    <li><h3>Symbolic Elements</h3>Air</li>
+                    <li><h3>Characteristics</h3>Intelligence, Wit, Wisdom, Creativity, Personality</li>
+                    <li><h3>Teacher</h3>Phileus Fleetwick</li>
+                    <li><h3>Dormitory Ghost</h3>Gray lady (Helena Ravenclaw)</li>
+                    <li><h3>Dormitory Entrance</h3>Bronze eagle statue</li>
+                </ul>
+            </div>
+    </body>
+</html>
